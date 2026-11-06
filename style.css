@@ -115,13 +115,12 @@ main > section { width: var(--wrap); margin-inline: auto; }
 .pill-solid { background: var(--pink); border-color: var(--pink); color: var(--ground); }
 .pill-solid:hover { background: transparent; }
 
-.hero-fig { margin: 0; }
+.hero-fig { margin: 0; justify-self: end; width: min(100%, 26rem); }
 .hero-fig img {
   display: block; width: 100%; height: auto;
   border-radius: 1.5rem 1.5rem 1.5rem 0.4rem;
   box-shadow: 0 1.5rem 3rem -1rem rgb(0 0 0 / 0.6);
 }
-.hero-fig figcaption { color: var(--ink-faint); font-size: 0.85rem; margin-top: 0.75rem; }
 
 /* shared section rhythm */
 main > section:not(.hero) {
